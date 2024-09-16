@@ -8,7 +8,7 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #eee;
+    background-color: #242424;
   }
   
   header {
@@ -20,10 +20,15 @@
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 0.25rem;
+    color: #001eff;
+  }
+
+  header .title {
+    color: #ffffff;
   }
   
   header .nav-link {
-    color: #3b334e;
+    color: #001eff;
     border-radius: 4px;
     display: inline-block;
     margin: 0.5rem 0.25rem;
@@ -33,7 +38,8 @@
   }
   
   header .nav-link:hover {
-    background-color: #e2d7ff;
+    background-color: #001eff;
+    color: white;
   }
   
   h1 {
@@ -51,8 +57,12 @@
   }
   
   a {
-    color: #3b334e;
+    color: #000000;
     text-decoration: none;
+  }
+
+  a:hover {
+    color: #001eff;
   }
   
   ul li {
@@ -75,7 +85,7 @@
   }
   
   .call-to-action {
-    background-color: #3b334e;
+    background-color: #001eff;
     border: 0;
     border-radius: 4px;
     color: #fff;
@@ -88,17 +98,22 @@
   }
   
   .call-to-action:hover {
-    background-color: #4e4368;
+    background-color: #ffffff;
+    border: 1px #001eff solid;
+    color: #001eff;
   }
   
   .skills {
     margin-top: 1.5rem;
   }
+  .skills ul li:hover {
+    color: #001eff;
+  }
   
   footer {
     text-align: center;
     padding: 1.5rem 0;
-    background-color: #3b334e;
+    background-color: #001eff;
     color: #fff;
   }
   
